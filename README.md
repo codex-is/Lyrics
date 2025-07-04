@@ -23,11 +23,13 @@ List<String[]> Lyrics = Arrays.asList(
     ...
 );
 
-🛠️ Customize Lyrics
-Edit the Lyrics list in the PrintLyrics.java file to add your own lines.
+---
 
-Format:
+## 🛠️ Customize Lyrics
+
+Edit the `Lyrics` list in the `PrintLyrics.java` file to add your own lines.
+
+**Format:**
+
+```java
 new String[]{"<your line>", "<lineDelay>", "<charDelay>"}
-Example:
-
-new String[]{"I could walk you by, and I'll tell you without a thought", "2000", "70"},
