@@ -17,19 +17,9 @@ Each lyric line is defined with:
 The program loops through each line, printing characters with a delay and pausing after each line before printing the next.
 
 ## 📁 Structure
+
 ```java
 List<String[]> Lyrics = Arrays.asList(
     new String[]{"<lyric line>", "<lineDelay in ms>", "<charDelay in ms>"},
     ...
 );
-
----
-
-## 🛠️ Customize Lyrics
-
-Edit the `Lyrics` list in the `PrintLyrics.java` file to add your own lines.
-
-**Format:**
-
-```java
-new String[]{"<your line>", "<lineDelay>", "<charDelay>"}
